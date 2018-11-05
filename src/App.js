@@ -7,7 +7,7 @@ class App extends Component {
     render() {
         return (
             <div className = "App" >
-                <h1 > Hi, I 'm a react app!</h1> 
+                <h1 > Hello & welcome to the playground</h1> 
                 <Person name="Dani" age="99"></Person>
                 <Person name="Viktor" age="66">My Hobbies: Racing!</Person>
                 <Person name="Mani" age="111"></Person>
