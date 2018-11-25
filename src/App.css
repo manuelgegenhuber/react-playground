@@ -1,3 +1,8 @@
 .App {
     text-align: center;
+    list-style: none;
+}
+
+.Car ul {
+    list-style: none;
 }

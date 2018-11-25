@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 //impoerting person and using it as own tag!!
 import Person from './Person/Person';
+import Car from './Car/Car';
 
 class App extends Component {
     render() {
@@ -11,6 +12,7 @@ class App extends Component {
                 <Person name="Dani" age="99"></Person>
                 <Person name="Viktor" age="66">My Hobbies: Racing!</Person>
                 <Person name="Mani" age="111"></Person>
+                <Car model="Toyota" color="black" year="1992">Best Car ever!</Car>
             </div>
         );
 
